@@ -1,7 +1,7 @@
 # Dolfos Game
 
-[Play the central hall](https://dolfos-game.brawnycurlew.chatgpt.site)
+[Play the public preview](https://dolfos-game.brawnycurlew.chatgpt.site)
 
-Use WASD or arrow keys to walk and R to return to the entrance. The five labeled doorways mark future portfolio rooms.
+Open index.html in any desktop browser. Use WASD or the arrow keys to walk and R to reset. The game embeds its sprite atlas and runs offline.
 
-The single-file HTML embeds its artwork for offline play. The repository includes assets/hall.png, assets/adventurer.png, and their editable Pillow generators create_hall.py and create_sprite.py.
+The original 32 × 48 pixel animation frames are in assets/adventurer.png. To regenerate them, run create_sprite.py with Python and Pillow.
